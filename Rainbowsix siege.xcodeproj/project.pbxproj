@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		350C79CF1EDA62280082DABC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C79CE1EDA62280082DABC /* AppDelegate.swift */; };
+		350C79D11EDA62280082DABC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C79D01EDA62280082DABC /* ViewController.swift */; };
+		350C79D41EDA62280082DABC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 350C79D21EDA62280082DABC /* Main.storyboard */; };
+		350C79D61EDA62280082DABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 350C79D51EDA62280082DABC /* Assets.xcassets */; };
+		350C79D91EDA62280082DABC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 350C79D71EDA62280082DABC /* LaunchScreen.storyboard */; };
+		350C79E41EDA62280082DABC /* Rainbowsix_siegeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C79E31EDA62280082DABC /* Rainbowsix_siegeTests.swift */; };
+		350C79EF1EDA62280082DABC /* Rainbowsix_siegeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C79EE1EDA62280082DABC /* Rainbowsix_siegeUITests.swift */; };
+		350C7AEF1EDAA1420082DABC /* Rainbow-Six_compressed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 350C7AEE1EDAA1420082DABC /* Rainbow-Six_compressed.jpg */; };
+		350C7AF11EDAA6F60082DABC /* ダウンロード.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 350C7AF01EDAA6F60082DABC /* ダウンロード.jpeg */; };
+		350C7AF31EDAB1CC0082DABC /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C7AF21EDAB1CC0082DABC /* ResultViewController.swift */; };
+		359152701EECE57A00E25479 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3591526F1EECE57A00E25479 /* 3.jpg */; };
+		359152721EECE8B600E25479 /* img5536_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 359152711EECE8B600E25479 /* img5536_01.jpg */; };
+		359152741EECE93800E25479 /* b243628f-s.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 359152731EECE93800E25479 /* b243628f-s.jpg */; };
+		359152761EECE9A100E25479 /* IMG_4989.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 359152751EECE9A100E25479 /* IMG_4989.jpg */; };
+		359152781EECEBCF00E25479 /* 20170207104050.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 359152771EECEBCF00E25479 /* 20170207104050.jpg */; };
+		3591527A1EECEC8200E25479 /* youtube.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 359152791EECEC8200E25479 /* youtube.jpeg */; };
+		3591527C1EED0A0D00E25479 /* img0432_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3591527B1EED0A0D00E25479 /* img0432_01.jpg */; };
+		3591527E1EED0AC600E25479 /* r6s_03_cs1w1_720x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3591527D1EED0AC600E25479 /* r6s_03_cs1w1_720x.jpg */; };
+		EBE057685A2E6AA920D55B2B /* Pods_Rainbowsix_siege.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD4FAEB2FA4D2FA849B3593 /* Pods_Rainbowsix_siege.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		350C79E01EDA62280082DABC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 350C79C31EDA62280082DABC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 350C79CA1EDA62280082DABC;
+			remoteInfo = "Rainbowsix siege";
+		};
+		350C79EB1EDA62280082DABC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 350C79C31EDA62280082DABC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 350C79CA1EDA62280082DABC;
+			remoteInfo = "Rainbowsix siege";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		144534AB86D568DAD465E6C6 /* Pods-Rainbowsix siege.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rainbowsix siege.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rainbowsix siege/Pods-Rainbowsix siege.debug.xcconfig"; sourceTree = "<group>"; };
+		350C79CB1EDA62280082DABC /* Rainbowsix siege.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rainbowsix siege.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		350C79CE1EDA62280082DABC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		350C79D01EDA62280082DABC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		350C79D31EDA62280082DABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		350C79D51EDA62280082DABC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		350C79D81EDA62280082DABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		350C79DA1EDA62280082DABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		350C79DF1EDA62280082DABC /* Rainbowsix siegeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rainbowsix siegeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		350C79E31EDA62280082DABC /* Rainbowsix_siegeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rainbowsix_siegeTests.swift; sourceTree = "<group>"; };
+		350C79E51EDA62280082DABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		350C79EA1EDA62280082DABC /* Rainbowsix siegeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rainbowsix siegeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		350C79EE1EDA62280082DABC /* Rainbowsix_siegeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rainbowsix_siegeUITests.swift; sourceTree = "<group>"; };
+		350C79F01EDA62280082DABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		350C7AEE1EDAA1420082DABC /* Rainbow-Six_compressed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rainbow-Six_compressed.jpg"; sourceTree = "<group>"; };
+		350C7AF01EDAA6F60082DABC /* ダウンロード.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ダウンロード.jpeg"; sourceTree = "<group>"; };
+		350C7AF21EDAB1CC0082DABC /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultViewController.swift; path = ../ResultViewController.swift; sourceTree = "<group>"; };
+		3591526F1EECE57A00E25479 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		359152711EECE8B600E25479 /* img5536_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img5536_01.jpg; sourceTree = "<group>"; };
+		359152731EECE93800E25479 /* b243628f-s.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "b243628f-s.jpg"; sourceTree = "<group>"; };
+		359152751EECE9A100E25479 /* IMG_4989.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_4989.jpg; sourceTree = "<group>"; };
+		359152771EECEBCF00E25479 /* 20170207104050.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20170207104050.jpg; sourceTree = "<group>"; };
+		359152791EECEC8200E25479 /* youtube.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = youtube.jpeg; sourceTree = "<group>"; };
+		3591527B1EED0A0D00E25479 /* img0432_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img0432_01.jpg; sourceTree = "<group>"; };
+		3591527D1EED0AC600E25479 /* r6s_03_cs1w1_720x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = r6s_03_cs1w1_720x.jpg; sourceTree = "<group>"; };
+		3C9637A40D77874B09D2A2E2 /* Pods-Rainbowsix siege.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rainbowsix siege.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rainbowsix siege/Pods-Rainbowsix siege.release.xcconfig"; sourceTree = "<group>"; };
+		CFD4FAEB2FA4D2FA849B3593 /* Pods_Rainbowsix_siege.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rainbowsix_siege.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		350C79C81EDA62280082DABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE057685A2E6AA920D55B2B /* Pods_Rainbowsix_siege.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350C79DC1EDA62280082DABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350C79E71EDA62280082DABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14B2B4E0909EC6A2E93998E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				144534AB86D568DAD465E6C6 /* Pods-Rainbowsix siege.debug.xcconfig */,
+				3C9637A40D77874B09D2A2E2 /* Pods-Rainbowsix siege.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		350C79C21EDA62280082DABC = {
+			isa = PBXGroup;
+			children = (
+				350C79CD1EDA62280082DABC /* Rainbowsix siege */,
+				350C79E21EDA62280082DABC /* Rainbowsix siegeTests */,
+				350C79ED1EDA62280082DABC /* Rainbowsix siegeUITests */,
+				350C79CC1EDA62280082DABC /* Products */,
+				14B2B4E0909EC6A2E93998E0 /* Pods */,
+				3D8CA5A25C7AE074C8528799 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		350C79CC1EDA62280082DABC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				350C79CB1EDA62280082DABC /* Rainbowsix siege.app */,
+				350C79DF1EDA62280082DABC /* Rainbowsix siegeTests.xctest */,
+				350C79EA1EDA62280082DABC /* Rainbowsix siegeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		350C79CD1EDA62280082DABC /* Rainbowsix siege */ = {
+			isa = PBXGroup;
+			children = (
+				350C79CE1EDA62280082DABC /* AppDelegate.swift */,
+				350C79D01EDA62280082DABC /* ViewController.swift */,
+				350C79D21EDA62280082DABC /* Main.storyboard */,
+				350C7AF21EDAB1CC0082DABC /* ResultViewController.swift */,
+				350C79D51EDA62280082DABC /* Assets.xcassets */,
+				3591527D1EED0AC600E25479 /* r6s_03_cs1w1_720x.jpg */,
+				3591527B1EED0A0D00E25479 /* img0432_01.jpg */,
+				359152791EECEC8200E25479 /* youtube.jpeg */,
+				359152771EECEBCF00E25479 /* 20170207104050.jpg */,
+				359152751EECE9A100E25479 /* IMG_4989.jpg */,
+				359152731EECE93800E25479 /* b243628f-s.jpg */,
+				359152711EECE8B600E25479 /* img5536_01.jpg */,
+				3591526F1EECE57A00E25479 /* 3.jpg */,
+				350C7AF01EDAA6F60082DABC /* ダウンロード.jpeg */,
+				350C7AEE1EDAA1420082DABC /* Rainbow-Six_compressed.jpg */,
+				350C79D71EDA62280082DABC /* LaunchScreen.storyboard */,
+				350C79DA1EDA62280082DABC /* Info.plist */,
+			);
+			path = "Rainbowsix siege";
+			sourceTree = "<group>";
+		};
+		350C79E21EDA62280082DABC /* Rainbowsix siegeTests */ = {
+			isa = PBXGroup;
+			children = (
+				350C79E31EDA62280082DABC /* Rainbowsix_siegeTests.swift */,
+				350C79E51EDA62280082DABC /* Info.plist */,
+			);
+			path = "Rainbowsix siegeTests";
+			sourceTree = "<group>";
+		};
+		350C79ED1EDA62280082DABC /* Rainbowsix siegeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				350C79EE1EDA62280082DABC /* Rainbowsix_siegeUITests.swift */,
+				350C79F01EDA62280082DABC /* Info.plist */,
+			);
+			path = "Rainbowsix siegeUITests";
+			sourceTree = "<group>";
+		};
+		3D8CA5A25C7AE074C8528799 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFD4FAEB2FA4D2FA849B3593 /* Pods_Rainbowsix_siege.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		350C79CA1EDA62280082DABC /* Rainbowsix siege */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 350C79F31EDA62280082DABC /* Build configuration list for PBXNativeTarget "Rainbowsix siege" */;
+			buildPhases = (
+				47BD934CF72575E372B97DCC /* [CP] Check Pods Manifest.lock */,
+				350C79C71EDA62280082DABC /* Sources */,
+				350C79C81EDA62280082DABC /* Frameworks */,
+				350C79C91EDA62280082DABC /* Resources */,
+				095CC9AB758CE6A4312BBD98 /* [CP] Embed Pods Frameworks */,
+				4C5C091B2761836856FC4625 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rainbowsix siege";
+			productName = "Rainbowsix siege";
+			productReference = 350C79CB1EDA62280082DABC /* Rainbowsix siege.app */;
+			productType = "com.apple.product-type.application";
+		};
+		350C79DE1EDA62280082DABC /* Rainbowsix siegeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 350C79F61EDA62280082DABC /* Build configuration list for PBXNativeTarget "Rainbowsix siegeTests" */;
+			buildPhases = (
+				350C79DB1EDA62280082DABC /* Sources */,
+				350C79DC1EDA62280082DABC /* Frameworks */,
+				350C79DD1EDA62280082DABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				350C79E11EDA62280082DABC /* PBXTargetDependency */,
+			);
+			name = "Rainbowsix siegeTests";
+			productName = "Rainbowsix siegeTests";
+			productReference = 350C79DF1EDA62280082DABC /* Rainbowsix siegeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		350C79E91EDA62280082DABC /* Rainbowsix siegeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 350C79F91EDA62280082DABC /* Build configuration list for PBXNativeTarget "Rainbowsix siegeUITests" */;
+			buildPhases = (
+				350C79E61EDA62280082DABC /* Sources */,
+				350C79E71EDA62280082DABC /* Frameworks */,
+				350C79E81EDA62280082DABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				350C79EC1EDA62280082DABC /* PBXTargetDependency */,
+			);
+			name = "Rainbowsix siegeUITests";
+			productName = "Rainbowsix siegeUITests";
+			productReference = 350C79EA1EDA62280082DABC /* Rainbowsix siegeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		350C79C31EDA62280082DABC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = None;
+				TargetAttributes = {
+					350C79CA1EDA62280082DABC = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					350C79DE1EDA62280082DABC = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 350C79CA1EDA62280082DABC;
+					};
+					350C79E91EDA62280082DABC = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 350C79CA1EDA62280082DABC;
+					};
+				};
+			};
+			buildConfigurationList = 350C79C61EDA62280082DABC /* Build configuration list for PBXProject "Rainbowsix siege" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 350C79C21EDA62280082DABC;
+			productRefGroup = 350C79CC1EDA62280082DABC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				350C79CA1EDA62280082DABC /* Rainbowsix siege */,
+				350C79DE1EDA62280082DABC /* Rainbowsix siegeTests */,
+				350C79E91EDA62280082DABC /* Rainbowsix siegeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		350C79C91EDA62280082DABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350C7AEF1EDAA1420082DABC /* Rainbow-Six_compressed.jpg in Resources */,
+				350C79D91EDA62280082DABC /* LaunchScreen.storyboard in Resources */,
+				3591527E1EED0AC600E25479 /* r6s_03_cs1w1_720x.jpg in Resources */,
+				350C79D61EDA62280082DABC /* Assets.xcassets in Resources */,
+				3591527C1EED0A0D00E25479 /* img0432_01.jpg in Resources */,
+				359152701EECE57A00E25479 /* 3.jpg in Resources */,
+				359152781EECEBCF00E25479 /* 20170207104050.jpg in Resources */,
+				3591527A1EECEC8200E25479 /* youtube.jpeg in Resources */,
+				350C7AF11EDAA6F60082DABC /* ダウンロード.jpeg in Resources */,
+				359152721EECE8B600E25479 /* img5536_01.jpg in Resources */,
+				359152761EECE9A100E25479 /* IMG_4989.jpg in Resources */,
+				359152741EECE93800E25479 /* b243628f-s.jpg in Resources */,
+				350C79D41EDA62280082DABC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350C79DD1EDA62280082DABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350C79E81EDA62280082DABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		095CC9AB758CE6A4312BBD98 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rainbowsix siege/Pods-Rainbowsix siege-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47BD934CF72575E372B97DCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4C5C091B2761836856FC4625 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rainbowsix siege/Pods-Rainbowsix siege-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		350C79C71EDA62280082DABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350C79D11EDA62280082DABC /* ViewController.swift in Sources */,
+				350C79CF1EDA62280082DABC /* AppDelegate.swift in Sources */,
+				350C7AF31EDAB1CC0082DABC /* ResultViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350C79DB1EDA62280082DABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350C79E41EDA62280082DABC /* Rainbowsix_siegeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350C79E61EDA62280082DABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350C79EF1EDA62280082DABC /* Rainbowsix_siegeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		350C79E11EDA62280082DABC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 350C79CA1EDA62280082DABC /* Rainbowsix siege */;
+			targetProxy = 350C79E01EDA62280082DABC /* PBXContainerItemProxy */;
+		};
+		350C79EC1EDA62280082DABC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 350C79CA1EDA62280082DABC /* Rainbowsix siege */;
+			targetProxy = 350C79EB1EDA62280082DABC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		350C79D21EDA62280082DABC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				350C79D31EDA62280082DABC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		350C79D71EDA62280082DABC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				350C79D81EDA62280082DABC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		350C79F11EDA62280082DABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		350C79F21EDA62280082DABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		350C79F41EDA62280082DABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 144534AB86D568DAD465E6C6 /* Pods-Rainbowsix siege.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Rainbowsix siege/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.Rainbowsix-siege";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		350C79F51EDA62280082DABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C9637A40D77874B09D2A2E2 /* Pods-Rainbowsix siege.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Rainbowsix siege/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.Rainbowsix-siege";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		350C79F71EDA62280082DABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Rainbowsix siegeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.Rainbowsix-siegeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rainbowsix siege.app/Rainbowsix siege";
+			};
+			name = Debug;
+		};
+		350C79F81EDA62280082DABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Rainbowsix siegeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.Rainbowsix-siegeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rainbowsix siege.app/Rainbowsix siege";
+			};
+			name = Release;
+		};
+		350C79FA1EDA62280082DABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Rainbowsix siegeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.Rainbowsix-siegeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Rainbowsix siege";
+			};
+			name = Debug;
+		};
+		350C79FB1EDA62280082DABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Rainbowsix siegeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.Rainbowsix-siegeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Rainbowsix siege";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		350C79C61EDA62280082DABC /* Build configuration list for PBXProject "Rainbowsix siege" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350C79F11EDA62280082DABC /* Debug */,
+				350C79F21EDA62280082DABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		350C79F31EDA62280082DABC /* Build configuration list for PBXNativeTarget "Rainbowsix siege" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350C79F41EDA62280082DABC /* Debug */,
+				350C79F51EDA62280082DABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		350C79F61EDA62280082DABC /* Build configuration list for PBXNativeTarget "Rainbowsix siegeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350C79F71EDA62280082DABC /* Debug */,
+				350C79F81EDA62280082DABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		350C79F91EDA62280082DABC /* Build configuration list for PBXNativeTarget "Rainbowsix siegeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350C79FA1EDA62280082DABC /* Debug */,
+				350C79FB1EDA62280082DABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 350C79C31EDA62280082DABC /* Project object */;
+}
