@@ -9,7 +9,13 @@
 import UIKit
 import RealmSwift
 
+
 class ViewController: UIViewController {
+    var number: Int!
+    @IBOutlet var buttonTest : UIButton!
+   
+ 
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
