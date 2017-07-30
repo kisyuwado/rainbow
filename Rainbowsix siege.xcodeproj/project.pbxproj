@@ -27,6 +27,9 @@
 		3591527A1EECEC8200E25479 /* youtube.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 359152791EECEC8200E25479 /* youtube.jpeg */; };
 		3591527C1EED0A0D00E25479 /* img0432_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3591527B1EED0A0D00E25479 /* img0432_01.jpg */; };
 		3591527E1EED0AC600E25479 /* r6s_03_cs1w1_720x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3591527D1EED0AC600E25479 /* r6s_03_cs1w1_720x.jpg */; };
+		35A7A0BD1F2DA3E300CAA9D6 /* TableViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A7A0BC1F2DA3E300CAA9D6 /* TableViewController1.swift */; };
+		35A7A0C41F2DA43200CAA9D6 /* CustomTableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A7A0C21F2DA43200CAA9D6 /* CustomTableViewCell1.swift */; };
+		35A7A0C51F2DA43200CAA9D6 /* CustomTableViewCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35A7A0C31F2DA43200CAA9D6 /* CustomTableViewCell1.xib */; };
 		EBE057685A2E6AA920D55B2B /* Pods_Rainbowsix_siege.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD4FAEB2FA4D2FA849B3593 /* Pods_Rainbowsix_siege.framework */; };
 /* End PBXBuildFile section */
 
@@ -75,6 +78,9 @@
 		359152791EECEC8200E25479 /* youtube.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = youtube.jpeg; sourceTree = "<group>"; };
 		3591527B1EED0A0D00E25479 /* img0432_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img0432_01.jpg; sourceTree = "<group>"; };
 		3591527D1EED0AC600E25479 /* r6s_03_cs1w1_720x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = r6s_03_cs1w1_720x.jpg; sourceTree = "<group>"; };
+		35A7A0BC1F2DA3E300CAA9D6 /* TableViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController1.swift; sourceTree = "<group>"; };
+		35A7A0C21F2DA43200CAA9D6 /* CustomTableViewCell1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell1.swift; sourceTree = "<group>"; };
+		35A7A0C31F2DA43200CAA9D6 /* CustomTableViewCell1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell1.xib; sourceTree = "<group>"; };
 		3C9637A40D77874B09D2A2E2 /* Pods-Rainbowsix siege.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rainbowsix siege.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rainbowsix siege/Pods-Rainbowsix siege.release.xcconfig"; sourceTree = "<group>"; };
 		CFD4FAEB2FA4D2FA849B3593 /* Pods_Rainbowsix_siege.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rainbowsix_siege.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -158,6 +164,9 @@
 				350C7AEE1EDAA1420082DABC /* Rainbow-Six_compressed.jpg */,
 				350C79D71EDA62280082DABC /* LaunchScreen.storyboard */,
 				350C79DA1EDA62280082DABC /* Info.plist */,
+				35A7A0BC1F2DA3E300CAA9D6 /* TableViewController1.swift */,
+				35A7A0C21F2DA43200CAA9D6 /* CustomTableViewCell1.swift */,
+				35A7A0C31F2DA43200CAA9D6 /* CustomTableViewCell1.xib */,
 			);
 			path = "Rainbowsix siege";
 			sourceTree = "<group>";
@@ -259,6 +268,7 @@
 				TargetAttributes = {
 					350C79CA1EDA62280082DABC = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 6V9U47BVWT;
 						ProvisioningStyle = Automatic;
 					};
 					350C79DE1EDA62280082DABC = {
@@ -302,6 +312,7 @@
 				350C79D91EDA62280082DABC /* LaunchScreen.storyboard in Resources */,
 				3591527E1EED0AC600E25479 /* r6s_03_cs1w1_720x.jpg in Resources */,
 				350C79D61EDA62280082DABC /* Assets.xcassets in Resources */,
+				35A7A0C51F2DA43200CAA9D6 /* CustomTableViewCell1.xib in Resources */,
 				3591527C1EED0A0D00E25479 /* img0432_01.jpg in Resources */,
 				359152701EECE57A00E25479 /* 3.jpg in Resources */,
 				359152781EECEBCF00E25479 /* 20170207104050.jpg in Resources */,
@@ -384,6 +395,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				350C79D11EDA62280082DABC /* ViewController.swift in Sources */,
+				35A7A0BD1F2DA3E300CAA9D6 /* TableViewController1.swift in Sources */,
+				35A7A0C41F2DA43200CAA9D6 /* CustomTableViewCell1.swift in Sources */,
 				354AB3161EFF7EEF00302758 /* CustomTableViewCell.swift in Sources */,
 				350C79CF1EDA62280082DABC /* AppDelegate.swift in Sources */,
 				350C7AF31EDAB1CC0082DABC /* ResultViewController.swift in Sources */,
@@ -540,6 +553,7 @@
 			baseConfigurationReference = 144534AB86D568DAD465E6C6 /* Pods-Rainbowsix siege.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6V9U47BVWT;
 				INFOPLIST_FILE = "Rainbowsix siege/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.Rainbowsix-siege";
@@ -553,6 +567,7 @@
 			baseConfigurationReference = 3C9637A40D77874B09D2A2E2 /* Pods-Rainbowsix siege.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6V9U47BVWT;
 				INFOPLIST_FILE = "Rainbowsix siege/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.Rainbowsix-siege";

@@ -15,16 +15,9 @@
             <rect key="frame" x="0.0" y="0.0" width="394" height="121"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM" customClass="CustomTableViewCell" customModule="Rainbowsix_siege" customModuleProvider="target">
-                <rect key="frame" x="0.0" y="0.0" width="394" height="121"/>
+                <rect key="frame" x="0.0" y="0.0" width="394" height="120"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pq4-B8-aMz">
-                        <rect key="frame" x="0.0" y="0.0" width="394" height="120"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <state key="normal">
-                            <color key="titleColor" red="1" green="0.26661651441450274" blue="0.27248386733219265" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        </state>
-                    </button>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_4989.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="9CL-hP-V1m">
                         <rect key="frame" x="0.0" y="0.0" width="217" height="122"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -36,11 +29,19 @@
                         <color key="textColor" red="0.97152782830447004" green="1" blue="0.99875616819233137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pq4-B8-aMz">
+                        <rect key="frame" x="0.0" y="0.0" width="394" height="120"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <state key="normal">
+                            <color key="titleColor" red="1" green="0.26661651441450274" blue="0.27248386733219265" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                    </button>
                 </subviews>
                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             </tableViewCellContentView>
             <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <connections>
+                <outlet property="button" destination="Pq4-B8-aMz" id="2Wu-eS-I5Y"/>
                 <outlet property="customCellImage" destination="9CL-hP-V1m" id="T6b-cA-vkj"/>
                 <outlet property="customCellLabel" destination="JqA-Xx-dzY" id="jC4-gT-1yH"/>
             </connections>
